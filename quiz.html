@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Quest - Kuis Online</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<meta name="viewport" content="width=device-width">
+	
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/quiz.css" rel="stylesheet">
+    
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+				<a class="brand" href="index.html">MyQuest</a>
+                <div class="nav-collapse">
+				    <ul class="nav">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="quiz.html">Mulai Kuis</a></li>
+                    </ul>
+                    <ul class="nav pull-right">
+				    	<li><a href="#">Login</a></li>
+				    	<li><a href="#">Daftar Akun</a></li>
+                    </ul>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+		<div class="main-quiz-holder">
+			<div id="intro-container" class="questionContainer">
+			<div class="questionNumber">Intro</div>
+		<a class="btnStart" href="#"><img src="img/start.jpg"/></a>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Beberapa standar IMK yang diterapkan di US di antaranya adalah sebagai berikut, kecuali 
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	Menyediakan umpanbalik kinerja</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	Menampilkan informasi dalam format yang sesuai dengan user</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	Meminimalkan financial</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	Memenuhi prinsip-prinsip ergonomic perangkat lunak</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Useful, usable, dan used merupakan beberapa tolak ukur keberhasilan IMK. Yang dimaksud dengan usable adalah 
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	Dapat menyelesaikan apa yang dibutuhkan</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	Berguna sesuai dengan kebutuhan</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	Membuat orang menggunakannya</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	Dapat dikerjakan dengan mudah dan alamiah</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Mata merupakan salah satu saluran input yang erat hubungannya dengan IMK. Salah satu ciri-ciri mata pada umumnya adalah sebagai berikut, kecuali 
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	Cones merupakan sel batang yang berfungsi untuk mengolah cahaya lemah</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	Sel ganglion mendeteksi pola dan pergerakan</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	Cahaya memantul dari objek-objek, citra dari mereka difokuskan terbalik pada retina</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	Retina mengandung rods</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Dalam tahap pemrosesan informasi, terdapat proses perbandingan setelah proses menangkap informasi. Yang dimaksud dengan proses perbandingan adalah
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	Makna informasi yang ditangkap akan dibandingkan dengan pengetahuan umum</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	Melakukan tanggapan setelah mengambil keputusan</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	Membandingkan prioritas aksi apa yang akan dilakukan</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	Membandingkan proses visual dan auditory</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Frekuensi yang dapat didengar oleh manusia berkisar dari 
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	0 Hz sampai 20 kHz</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	20 Hz sampai 15 kHz</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	0 kHz sampai 20 kHz</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	20 kHz sampai 15 kHz</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Kombinasi warna merupakan hal penting yang harus diperhatikan dalam mendesain suatu produk. Kombinasi warna berikut yang bisa diterapkan dalam mendesain produk adalah 
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a.	Merah dan Kuninglabel</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b.	Hijau dan Biru</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c.	Biru dan Kuning</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d.	Jingga dan Kuning</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Berikut yang termasuk aspek Usability berdasarkan ISO 1998, kecuali
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a. Efisiensi</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b. Efektifitas</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c. Kepuasan</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d. Ketahanan</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Shortcut termasuk dalam atribut
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">a. Efisiensi</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">b. Error</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">c. Learnability</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">d. Efektif</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			The # symbol specifies that the selector is...
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">class</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">tag</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">the boss!</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">id</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnNext btn btn-primary btn-large">Next</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div class="questionContainer hide">
+		<div class="question">
+			Inline styles are defined by which attribute?
+		</div>
+		<ul class="answers">
+			<li>
+			<label><input data-key="a" type="radio">css</label>
+			</li>
+			<li>
+			<label><input data-key="b" type="radio">style</label>
+			</li>
+			<li>
+			<label><input data-key="c" type="radio">stylesheet</label>
+			</li>
+			<li>
+			<label><input data-key="d" type="radio">stylesheets</label>
+			</li>
+		</ul>
+		<div class="btnContainer">
+			<div class="prev">
+				<button class="btnPrev btn btn-primary btn-large">Prev</button>
+			</div>
+			<div class="next">
+				<button class="btnShowResult btn btn-primary btn-large">Selesai</button>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	
+	</div>
+	
+	<div id="results-container" class="questionContainer hide">
+		<div id="resultKeeper">
+		</div>
+	</div>
+	<div id="progressKeeper" class="progress progress-info progress-striped active">
+		<div id="progress" class="bar">
+		</div>
+	</div>
+	<div id="notice">
+		Please select an option
+	</div>
+		</div>
+	</div>
+	
+	<script>
+		var kroggy = { answers: [ 'c', 'd', 'a', 'a', 'b', 'c', 'd', 'a', 'd', 'a', ] }
+	</script>
+	<script type="text/javascript" src="js/quiz-validate.js"></script>
+	
+	<hr>
+	
+	<footer>
+			<p>&copy; Agung Kurnia Robbi, Rangga Pahlevi Putra, Catur Lestian Pambudi - 2012</p>
+	</footer>
+</body>
+</html>
